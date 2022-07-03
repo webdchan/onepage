@@ -322,7 +322,7 @@ p{
   opacity:1;
 }
 
-.menu01_bg>ul>li ul li:nth-of-type(+n+2):nth-of-type(-n+4){
+.menu01_bg>ul>li ul li:nth-of-type(2), .menu01_bg>ul>li ul li:nth-of-type(3), .menu01_bg>ul>li ul li:nth-of-type(4){
   width:300px;
   height:300px;
   position:absolute;
@@ -404,7 +404,7 @@ p{
   font-style:italic;
 }
 
-#menu01 ul li ul li:nth-of-type(+n+2):nth-of-type(-n+4) p{
+#menu01 ul li ul li:nth-of-type(2) p, #menu01 ul li ul li:nth-of-type(3) p, #menu01 ul li ul li:nth-of-type(4) p{
   font-size:16px;
   font-weight:600;
   color:rgb(80, 80, 80);
